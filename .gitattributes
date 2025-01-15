@@ -1,1 +1,2 @@
 SantaRunner.loader.js filter=lfs diff=lfs merge=lfs -text
+SantaRunner.wasm filter=lfs diff=lfs merge=lfs -text

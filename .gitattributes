@@ -1,2 +1,11 @@
+# Unity WebGL Build Files
+SantaRunner.data filter=lfs diff=lfs merge=lfs -text
+SantaRunner.framework.js filter=lfs diff=lfs merge=lfs -text
 SantaRunner.loader.js filter=lfs diff=lfs merge=lfs -text
 SantaRunner.wasm filter=lfs diff=lfs merge=lfs -text
+
+# Ensure other large files are also handled correctly
+*.data filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.framework.js filter=lfs diff=lfs merge=lfs -text
+*.loader.js filter=lfs diff=lfs merge=lfs -text
